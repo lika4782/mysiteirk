@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Достопримечательности Иркутска</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #9ea6b7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgb(140, 193, 236);
+            color: white;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: white;
+        }
+
+        .irk {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        .irk p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item {
+            display: flex;
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .img {
+            width: 400px;
+            height: 300px;
+        }
+
+        .img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .text {
+            flex: 1;
+            padding: 25px;
+        }
+
+        .text h3 {
+            color: #6188de;
+            margin-bottom: 15px;
+            font-size: 25px;
+        }
+
+        .text p {
+            color: #063d74;
+        }
+
+        .footer {
+            background: rgb(140, 193, 236);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .img {
+                width: 100%;
+                height: 250px;
+            }
+            
+            h1 {
+                font-size: 20px
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Достопримечательности Иркутска</h1>
+        </div>
+
+        <div class="irk">
+            <h2>Об Иркутске</h2>
+            <p>Иркутск — старинный сибирский город, основанный в 1661 году. Расположенный на берегах реки Ангары, 
+            он является культурным, экономическим и научным центром Восточной Сибири. Город сохранил уникальное 
+            историческое наследие, сочетающее в себе деревянное зодчество, каменную архитектуру и современные 
+            постройки. Неофициально Иркутск часто называют «сибирским Парижем» за его богатое архитектурное наследие 
+            и «воротами в Байкал», так как именно отсюда начинается большинство путешествий к всемирно известному озеру.</p>
+        </div>
+
+        <div class="items">
+            <div class="item">
+                <div class="img">
+                    <img src="img/img1.jpg" alt="Собор Богоявления">
+                </div>
+                <div class="text">
+                    <h3>Собор Богоявления</h3>
+                    <p>Один из старейших православных храмов Сибири, построенный в стиле сибирского барокко. 
+                    Собор был основан в 1693 году и является архитектурным памятником федерального значения.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="img">
+                    <img src="img/img2.jpg" alt="130 квартал">
+                </div>
+                <div class="text">
+                    <h3>130 квартал</h3>
+                    <p>Исторический район города, где сохранены и восстановлены памятники деревянного зодчества. 
+                    Это уникальный музей под открытым небом, где можно увидеть традиционную сибирскую архитектуру.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="img">
+                    <img src="img/img3.jpg" alt="Памятник Александру 3">
+                </div>
+                <div class="text">
+                    <h3>Памятник Александру III</h3>
+                    <p>Восстановленный памятник императору Александру III, расположенный на набережной Ангары. 
+                    Памятник символизирует важную роль императора в развитии Сибири.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="img">
+                    <img src="img/img4.jpg" alt="Краеведческий музей">
+                </div>
+                <div class="text">
+                    <h3>Иркутский краеведческий музей</h3>
+                    <p>Один из старейших музеев Сибири, основанный в 1782 году. Музей располагает богатейшими 
+                    коллекциями, рассказывающими о природе, истории и культуре Восточной Сибири.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="img">
+                    <img src="img/img5.jpg" alt="Нерпинарий">
+                </div>
+                <div class="text">
+                    <h3>Иркутский нерпинарий</h3>
+                    <p>Уникальное место, где можно увидеть выступления байкальских нерп - единственных в мире 
+                    пресноводных тюленей. Нерпы демонстрируют удивительные способности: играют на музыкальных 
+                    инструментах, рисуют картины и решают математические задачи. Это одно из самых популярных 
+                    мест для посещения с детьми.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><a href="https://t.me/likulikks">Связаться с автором сайта</a></p>
+        </div>
+    </div>
+</body>
+</html>
